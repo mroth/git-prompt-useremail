@@ -41,8 +41,27 @@ set it._
      src="https://cloud.githubusercontent.com/assets/40650/23048542/63ea7ec2-f46b-11e6-8b7c-dc7102911feb.png"
      width="430" />
 
+[git-config]: https://git-scm.com/docs/git-config
+
+
 ## Installation
 
-TODO
+### [Antigen](https://github.com/zsh-users/antigen)
 
-[git-config]: https://git-scm.com/docs/git-config
+Add `antigen bundle mroth/git-prompt-useremail` to your `.zshrc` with your other bundle commands.
+
+Antigen will handle cloning the plugin for you automatically the next time you start zsh. You can also add the plugin to a running zsh with `antigen bundle mroth/git-prompt-useremail` for testing before adding it to your `.zshrc`.
+
+### [Oh-My-Zsh](http://ohmyz.sh/)
+
+1. `cd ~/.oh-my-zsh/custom/plugins`
+2. `git clone https://github.com/mroth/git-prompt-useremail`
+3. Add *git-prompt-useremail* to your plugin list - edit `~.zshrc` and change `plugins=(...)` to `plugins=(... git-prompt-useremail)`
+
+### [Zgen](https://github.com/tarjoilija/zgen)
+
+Add `zgen load mroth/git-prompt-useremail` to your `.zshrc` file in the same function you're doing your other `zgen load` calls in. Zgen will handle automatically cloning the plugin for you the next time you do a `zgen save`.
+
+### Bash
+
+This script should work fine in bash as well, I just haven't tested it.  PRs with modifications and installation instructions are very welcome!
