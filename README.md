@@ -1,4 +1,4 @@
-# git_prompt_useremail
+# git-prompt-useremail
 > zsh plugin to add prompt reminders for git user.email
 
 Do you git commit under multiple email addresses depending on the situation?
