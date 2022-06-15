@@ -52,6 +52,14 @@ Add `antigen bundle mroth/git-prompt-useremail` to your `.zshrc` with your other
 
 Antigen will handle cloning the plugin for you automatically the next time you start zsh. You can also add the plugin to a running zsh with `antigen bundle mroth/git-prompt-useremail` for testing before adding it to your `.zshrc`.
 
+### [Fig](https://fig.io)
+
+Fig adds apps, shortcuts, and autocomplete to your existing terminal.
+
+Install `git-prompt-useremail` in just one click.
+
+<a href="https://fig.io/plugins/other/git-prompt-useremail_mroth" target="_blank"><img src="https://fig.io/badges/install-with-fig.svg" /></a>
+
 ### [Oh-My-Zsh](http://ohmyz.sh/)
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
